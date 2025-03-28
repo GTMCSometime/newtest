@@ -1,5 +1,5 @@
 <?php
-function pairNumbersSearcher($array)  {
+function pairNumbersSearcher(array $array)  {
     $arrayFilter = array_filter($array, 'is_int');
     $dropKey = array_values($arrayFilter);
     $result = [];
