@@ -8,5 +8,5 @@ function pairNumbersSearcher(array $array)  {
             $result[] = [$dropKey[$i], $dropKey[$i + 1]];
         }
     }
-    return $result;
+    return count($result);
 }
